@@ -1,0 +1,5 @@
+sudo modprobe -r cdc_acm usbserial
+sudo modprobe cdc_acm
+
+cd "/projects/codes/robodog-python-gui setup/"
+python servo_slider.py
